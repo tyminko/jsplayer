@@ -4,7 +4,9 @@
   "description": "player wrapper for an js-based artwork ",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run lint && babel ./src -d ./build",
+	"lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/tyminko/jsplayer/issues"
   },
-  "homepage": "https://github.com/tyminko/jsplayer#readme"
+  "homepage": "https://github.com/tyminko/jsplayer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
 }
