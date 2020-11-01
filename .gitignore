@@ -3,7 +3,9 @@
 # Thumbnails
 ._*
 # IntelliJ project files
-.idea
+.idea/
 *.iml
 out
 gen
+.vscode/
+lib/
