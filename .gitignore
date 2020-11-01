@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+# Thumbnails
+._*
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
